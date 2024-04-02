@@ -14,13 +14,13 @@ For graphical usability of the model, I included a sample LTSPICE file (tb.asc) 
 This software is spread between two python files. While SAW_FUNCTIONS.py carries all the necessary functions for the script, SAW_SPICE_GEN.py is responsible for the model generation. Before running the program, make sure that both files are in the **same folder**. Then, execute it with:
 
 ```
-python SAW_SPICE.GEN.py
+python SAW_SPICE_GEN.py
 ```
 
 If you have more than one python version in your computer, you may need to specify it when running, such as
 
 ```
-python3 SAW_SPICE.GEN.py
+python3 SAW_SPICE_GEN.py
 ```
 
 Then, the program will ask you to input a few parameters necessary for evaluation of the models. If you are not sure about any of them, you can just press _Enter_ in your keyboard and the software will use default values. The most important parameters, however, are the center frequency (f0) and the number of finger pairs in one IDT, and they must be known if you desire that the model minimally replicates your device's behavior.
